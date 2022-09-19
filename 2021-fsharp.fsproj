@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>_2021_fsharp</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Day9/Day9_input.fs" />
+    <Compile Include="Day9/Day9.fs" />
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+</Project>
