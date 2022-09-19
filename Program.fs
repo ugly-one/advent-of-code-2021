@@ -2,4 +2,6 @@
 open Day1
 open Day1_input
 
-calculateWindow input |>  printfn "%d"
+Day9.calculate
+
+// calculateWindow input |>  printfn "%d"
