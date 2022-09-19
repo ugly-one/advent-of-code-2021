@@ -1,5 +1,7 @@
 module Day1
 
+open Day1_input
+
 let calculate input =
     let folder item (result, maybeNextItem) = 
         match maybeNextItem with 
@@ -25,3 +27,9 @@ let calculateWindow input =
          
     let (a, _, _) = Array.foldBack folder input (0, [||], [||])
     a
+
+let run1 = 
+    calculate input
+
+let run2 =
+    calculateWindow input

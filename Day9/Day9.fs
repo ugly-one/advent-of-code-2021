@@ -1,6 +1,5 @@
 module Day9
 
-open System
 open Day9_input
 
 let input = input3
@@ -74,7 +73,7 @@ let printPoint point: unit =
     printfn "%d" point.Value
     ()
 
-let calculate = 
+let run1 = 
     let arrayInput = Array.map (fun i -> {Value = i; IsMinimum = No}) input.Values
     let result = calculateLocalMinima arrayInput
     result |> List.iter printPoint
