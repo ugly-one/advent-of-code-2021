@@ -1,5 +1,4 @@
-﻿open Day9
-open Day1
+﻿open Day2
 
-Day9.run1
+Day2.run2
 // calculateWindow input |>  printfn "%d"
