@@ -1,4 +1,4 @@
-﻿open Day2
+﻿open Day3
 
-Day2.run2
+Day3.run |> printfn "%d"
 // calculateWindow input |>  printfn "%d"
