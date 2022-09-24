@@ -1020,5 +1020,9 @@ let _input = [|
 
 let toArray2D arrayOfLists = 
     Array2D.init (Array.length arrayOfLists) (List.length arrayOfLists[0]) (fun i j -> arrayOfLists[i][j])
+
+let toArray2D2 (arrayOfLists : int array array) = 
+    Array2D.init (Array.length arrayOfLists) (Array.length (arrayOfLists[0])) (fun i j -> arrayOfLists[i][j])
+
 let input = toArray2D _input
 let testInput = toArray2D _testInput
